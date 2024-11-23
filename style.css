@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+         body {
+            background-color: lightblue;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+         }
+
+        
+         .main-header {
+            text-align: center;
+            font-size: 2.5em;
+            font-weight: bold;
+            color: white;
+            background-color: #0275d8; 
+            padding: 20px;
+            margin: 0;
+         }
+
+         .spacer {
+            height: 30px;
+         }
+
+         
+         .container {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 50%;
+            margin: 0 auto;
+            padding: 20px;
+         }
+
+         
+         .header {
+            background-color: #d9534f;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            border-radius: 8px 8px 0 0;
+            font-size: 1.5em;
+         }
+         table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+         }
+         td {
+            padding: 10px;
+         }
+         td:first-child {
+            text-align: right;
+            font-weight: bold;
+         }
+         input[type="text"] {
+            width: 90%;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+         }
+         input[type="submit"], input[type="reset"] {
+            background-color: #5cb85c;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 15px;
+            cursor: pointer;
+         }
+         input[type="reset"] {
+            background-color: #d9534f;
+         }
+         input[type="submit"]:hover, input[type="reset"]:hover {
+            opacity: 0.9;
+         }
+         a {
+            display: inline-block;
+            margin-top: 20px;
+            text-align: center;
+            width: 100%;
+            color: #0275d8;
+            text-decoration: none;
+         }
+         a:hover {
+            text-decoration: underline;
+         }
+         
+  a.button {
+    display: inline-block; 
+    padding: 5px 5px;    
+    margin-top: 20px;      
+    text-align: center;    
+    text-decoration: none;
+    color: white;          
+    background-color: #0275d8; 
+    border: none;          
+    border-radius: 5px;    
+    cursor: pointer;       
+    font-size: 1em;       
+}
+
+a.button:hover {
+    background-color: #025aa5; 
+    text-decoration: none; 
+    opacity: 0.9;         
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #0275d8;
+    color: white;
+}
